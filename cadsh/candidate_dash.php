@@ -1,5 +1,5 @@
 <?php
-include "placement/connection.php";
+include "../connection.php";
 session_start();
 
 $candidate_id = $_SESSION['candidate_id']; 

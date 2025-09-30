@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'placement/connection.php';
+include '../connection.php';
 
 if (!isset($_SESSION['company_id'])) {
     echo "<script>alert('Please log in first!'); window.location.href='/placement/login/comp.php';</script>";

@@ -1,5 +1,5 @@
 <?php
-include "placement/connection.php";
+include "../connection.php";
 session_start();
 
 $shortlisted_query = "SELECT s.shortlist_id, j.job_title, c.c_name AS candidate_name, c.c_email AS candidate_email, cmp.company_name

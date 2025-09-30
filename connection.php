@@ -1,15 +1,13 @@
 <?php
-$servername = "127.0.0.1";
-$username = "root";
-$password = "calpoo@96"; 
-$database = "placement_data";
+$servername = "127.0.0.1";  // or "localhost"
+$username   = "root";
+$password   = "";
+$database   = "placement_data";
 
-$conn  = new mysqli($servername, $username, $password, database: $database);
+// Correct mysqli connection (NO "database:")
+$conn = new mysqli($servername, $username, $password, $database);
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-} else {
-    echo " ";
 }
-
 ?>

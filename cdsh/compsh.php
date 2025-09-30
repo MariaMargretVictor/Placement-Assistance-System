@@ -1,5 +1,5 @@
 <?php
-include "placement/connection.php";
+include "../connection.php";
 session_start();
 
 if (!isset($_SESSION['company_id'])) {

@@ -1,6 +1,6 @@
 
 session_start();
-include 'placement/connection.php'; // Adjust path if needed
+include '../connection.php'; // Adjust path if needed
 
 // Check if candidate is logged in
 if (!isset($_SESSION['c_email'])) {

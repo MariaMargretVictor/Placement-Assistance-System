@@ -1,5 +1,5 @@
 <?php
-include "placement/connection.php";
+include "../connection.php";
 session_start();
 
 $application_query = "SELECT c.candidate_id, c.c_name AS candidate_name, c.c_email AS candidate_email, 

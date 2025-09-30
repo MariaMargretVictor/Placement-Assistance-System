@@ -1,7 +1,7 @@
 <?php
 session_start(); 
 
-include 'placement/connection.php'; 
+include '../connection.php'; 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $admin_email = $_POST['admin_email'];

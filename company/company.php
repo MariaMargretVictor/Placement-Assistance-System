@@ -116,7 +116,7 @@ button:hover {
 
     <?php
 
-include 'placement/connection.php';
+include '../connection.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $company_name = $_POST['company_name'];
